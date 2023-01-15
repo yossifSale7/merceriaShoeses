@@ -1073,7 +1073,7 @@ header .social-media .lang-selector p:hover {
     background-color: #38363640;
     width: 75%;
     height: 1px;
-    box-shadow: 0px 8px 35px 1px #00000091;
+    box-shadow: -1px 20px 40px 1px #00000091;
 }
 .sales {
     display: flex;
@@ -1090,7 +1090,7 @@ header .social-media .lang-selector p:hover {
     background-color: #38363640;
     width: 75%;
     height: 1px;
-    box-shadow: 0px 8px 25px 1px #00000091;
+    box-shadow: -1px 20px 40px 1px #00000091;
 }
 .sales .sales-content {
     display: flex;
@@ -1182,11 +1182,11 @@ header .social-media .lang-selector p:hover {
     top: 0;
     left: 0;
     z-index: 3;
-    cursor: pointer;
 }
 .sales .sales-content .sales-item .product-content .add-to-cart i {
     font-size: 17px;
     margin: 10px;
+    cursor: pointer;
 }
 .about {
     position: relative;
@@ -1293,5 +1293,8 @@ footer .footer-item ul li:hover {
     }
     .latest-blog img {
         width: 200px;
+    }
+    .style-images .container-images img {
+        width: 80%;
     }
 }
